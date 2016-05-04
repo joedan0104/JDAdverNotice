@@ -34,6 +34,7 @@ import com.example.jdadvernotice.adapter.JDViewAdapter;
  * <li> Created by zengyu on 2016/3/20.
  * <li> 1.1.0 周荣华  2016/4/11 内存泄露修正
  * <li> 1.1.1 周荣华 2016/4/13 广告栏高度根据子控件进行自动调整。如果想设置广告栏高度不变，可以设置定长高度。
+ * <li> 1.1.2 周荣华 2016/5/4 动态刷新出现视图叠加和残留
  */
 @SuppressLint("NewApi")
 public class JDAdverView extends LinearLayout {
